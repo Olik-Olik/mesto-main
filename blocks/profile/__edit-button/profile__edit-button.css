@@ -1,16 +1,35 @@
 .profile__edit-button{
-    object-position: right;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 19px 0 0 17px;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../../images/Edit_Button.svg);}
+
+    /*object-position: center;!*хз можно убить проверить*!
+     background-position: center;
     margin: 0;
     padding-left: 18px;
-    padding-top: 18px;
-    background-image: url(../../../images/Edit_Button.svg);
-    width: auto;
-    flex-direction: column;
-    text-decoration: none;
+    padding-top: 18px;*/
+  /* background-image: url(../../../images/Edit_Button.svg);}*/
+     /*background-color: black;
+    width: 24px;
+    height: 24px;
+  !*  flex-direction: column; не уверена, что  надо, проверить!!!*!
+   !* text-decoration: none;*!
     color: #FFFFFF;
-    /*background-size: contain;*/
-    display: inline-block;
-    float: initial;
-    background-color: black;
-
+    !*background-size: contain;*!
+   !* display: inline-block;
+    float: initial;*!
+    border: 1px solid #fff;
+  !*  background-color: unset;*!
+   !* margin: 19px 0 0 17px;*!
+    background-repeat: no-repeat;
+}*/
+.profile__edit-button:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }

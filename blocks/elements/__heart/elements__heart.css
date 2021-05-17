@@ -1,5 +1,5 @@
 .elements__heart{
-    position: absolute;
+   /* */
    /* max-width: 22px;
     max-height: 19px;
     object-fit: contain;
@@ -10,10 +10,20 @@
     padding-left: 0;
     padding-bottom: 0;*/
    /* padding: 30px 20px 30px 240px;*/
+    /*max-width: 22px;
+    max-height: 19px;*/
     background-image: url(../../../images/Vector_heart.svg);
-    background-repeat:no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 19px 0 0 17px;
+    background: red;
+    background-repeat: no-repeat;
+    background-position: center;}
 
-    max-width: 22px;
+   /* max-width: 22px;
     max-height: 19px;
     padding-left: 24px;
     padding-right: 0;
@@ -22,7 +32,4 @@
     top: 291px;
     right: 20px;
     bottom:0;
-    left: 240px;
-
-
-}
+    left: 240px;*/

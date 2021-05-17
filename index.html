@@ -14,7 +14,7 @@
     <img alt="Место Россия" class="header__logo" src="images/Logo.svg">
     <img alt="Линия" class="header__line" src="images/Line.jpg">
 </header>
-<main>
+<main class="container">
     <section class="profile">
         <img alt="Фотка Кусто" class="profile__avatar" src="images/Image.svg">
         <div class="profile__info">
@@ -79,24 +79,23 @@
     <div class="popup">
         <div class="popup__container">
             <form class="popup__form" name="reprofile" method="GET" action="#">
-                <h2 class="popup__heading">Редактировать профиль</h2>
+                <h2 class="popup__correctprofile">Редактировать профиль</h2>
                 <fieldset class="popup__input-container"><!--Такая группировка облегчает работу с формами,
                  содержащими большое число данных. Например, один блок может
                 быть предназначен для ввода текстовой информации, а другой — для флажков-->
                     <input type="text" name="profile" placeholder="Жак-Ив Кусто"
-                           class="popup__field popup__field_name"> "input__text input__text_type_song"
+                           class="popup__field popup__field_name">
                     <input type="text" name="job" placeholder="Исследователь океана"
                            class="popup__field popup__field_job">
                 </fieldset>
-                <button class="popup__input-save" type="submit">Сохранить</button>
+                <button class="popup__save" type="submit">Сохранить</button>
                 <button class="popup__close" type="button"></button>
             </form>
         </div>
     </div>
 <div class="form__submit">
-        <button class="form__submit-btn form__submit-btn_action_reset">
-          Очистить плейлист
-        </button>
+        <button class="form__submit-btn form__submit-btn_action_reset">Очистить плейлист</button>
+</div>
 </main>
 <script src="script.js"></script>
 <footer>
