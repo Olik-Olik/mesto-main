@@ -20,6 +20,11 @@
     display: inline-block;
 }
 
+.profile__add-button:hover {
+    color: black;
+    opacity: 0.3;
+    cursor: pointer;}
+
 @media screen and (max-width: 320px) {
     .profile__add-button {
         padding-top: 0;

@@ -19,9 +19,14 @@
     border: 1px solid #fff;
     padding: 0;
     margin: 19px 0 0 17px;
-    background: red;
+    color:  red;
     background-repeat: no-repeat;
     background-position: center;}
+
+.elements__heart:hover {
+    color: black;
+    opacity: 0.3;
+    cursor: pointer;}
 
    /* max-width: 22px;
     max-height: 19px;
