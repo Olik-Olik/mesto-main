@@ -1,0 +1,31 @@
+.profile__add-button {
+ /*     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;*/
+    flex-direction: column;
+    padding-top: 22px;
+    background-image: url(../../../images/Add_Button.svg);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border:  1px  #FFFFFF;
+    background-color: black;
+    margin: 0 auto;
+    width: 88%;
+    min-height: 18vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: right;
+    float: initial;
+    display: inline-block;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__add-button {
+        padding-top: 0;
+        padding-bottom: 36px;
+        display: inline-block;
+        max-height: 18%;
+        max-width: 88%;
+    }
+}

@@ -1,0 +1,28 @@
+.elements__heart{
+    position: absolute;
+   /* max-width: 22px;
+    max-height: 19px;
+    object-fit: contain;
+    object-position: top;
+    justify-items: center;
+    list-style-type:none;
+    background-size:cover;
+    padding-left: 0;
+    padding-bottom: 0;*/
+   /* padding: 30px 20px 30px 240px;*/
+    background-image: url(../../../images/Vector_heart.svg);
+    background-repeat:no-repeat;
+
+    max-width: 22px;
+    max-height: 19px;
+    padding-left: 24px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border:0;
+    top: 291px;
+    right: 20px;
+    bottom:0;
+    left: 240px;
+
+
+}

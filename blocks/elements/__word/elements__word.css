@@ -1,0 +1,25 @@
+.elements__word {
+    /*object-fit: cover;*/
+    justify-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    /*top: 246px;*/
+   /* left: 21px;*/
+   /* max-width: 87%;*/
+    max-height: 23px;
+    max-width: 246px;
+    font-style: black;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 900;
+    color:black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    bottom: 31px;
+    top:25px;
+    left:40px;
+
+
+}

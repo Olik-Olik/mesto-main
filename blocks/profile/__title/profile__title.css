@@ -1,0 +1,21 @@
+.profile__title {
+    justify-content: space-between;
+    flex-direction: row;/*титл и сабтитл */
+    margin: 0 auto; /*по центру*/
+    font-style: normal;
+    font-size: 27px;
+    line-height: 33px;
+    display: inline-block; /*надо для кнопки редактирования на этой же строчке*/
+    font-weight: 500;
+    padding-right: 10px;/*кнопка от титла*/
+    padding-top: 22px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .profile__title {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}

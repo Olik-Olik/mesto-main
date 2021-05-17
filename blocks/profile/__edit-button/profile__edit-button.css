@@ -1,0 +1,16 @@
+.profile__edit-button{
+    object-position: right;
+    margin: 0;
+    padding-left: 18px;
+    padding-top: 18px;
+    background-image: url(../../../images/Edit_Button.svg);
+    width: auto;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FFFFFF;
+    /*background-size: contain;*/
+    display: inline-block;
+    float: initial;
+    background-color: black;
+
+}
