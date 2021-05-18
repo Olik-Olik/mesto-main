@@ -2,7 +2,7 @@
     padding: 75px 200px 67px 200px;
     margin: 0 auto;
     display: grid;
-    grid-column-gap: 17px;
+    grid-column-gap: 18px;
     grid-row-gap: 20px;
     grid-template-columns: repeat(3, 280px);
     align-items: center;
@@ -14,7 +14,7 @@
     .elements {
         gap: 20px;
         grid-template-columns: repeat(3, 280px);
-        padding: 0 48px 0 48px;
+        padding: 0 18px 0 18px;
     }
 }
 
@@ -22,7 +22,7 @@
     .elements {
         gap: 20px;
         grid-template-columns: repeat(2, 280px);
-        padding: 0 24px 0 24px;
+        padding: 0 18px 0 18px;
     }
 }
 
@@ -30,7 +30,7 @@
     .elements {
         gap: 20px;
         grid-template-columns:repeat(1, 100%);
-        padding: 0 19px 0 19px;
+        padding: 0 18px 0 18px;
     }
 }
   /*  position: relative;

@@ -1,40 +1,16 @@
 .elements__heart{
-   /* */
-   /* max-width: 22px;
-    max-height: 19px;
-    object-fit: contain;
-    object-position: top;
-    justify-items: center;
-    list-style-type:none;
-    background-size:cover;
-    padding-left: 0;
-    padding-bottom: 0;*/
-   /* padding: 30px 20px 30px 240px;*/
-    /*max-width: 22px;
-    max-height: 19px;*/
     background-image: url(../../../images/Vector_heart.svg);
     position: absolute;
     width: 24px;
     height: 24px;
-    border: 1px solid #fff;
+    border: 1px solid red;
     padding: 0;
-    margin: 19px 0 0 17px;
-    color:  red;
-    background-repeat: no-repeat;
-    background-position: center;}
+    margin: 21px -30px  17px;
+    color:  black;
+    background-repeat: no-repeat;}
 
 .elements__heart:hover {
     color: black;
     opacity: 0.3;
     cursor: pointer;}
 
-   /* max-width: 22px;
-    max-height: 19px;
-    padding-left: 24px;
-    padding-right: 0;
-    padding-bottom: 20px;
-    border:0;
-    top: 291px;
-    right: 20px;
-    bottom:0;
-    left: 240px;*/
