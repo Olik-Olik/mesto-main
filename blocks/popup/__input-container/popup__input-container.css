@@ -1,5 +1,6 @@
 .popup__input-container {
     border: 0;
     padding: 0;
-    margin-top: 54px;
+    margin: 0;
+    margin-top: 54px;/*от титла до ввода названия */
 }
