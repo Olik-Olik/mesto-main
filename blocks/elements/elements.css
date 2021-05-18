@@ -20,17 +20,17 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .elements {
-        gap: 20px;
+
         grid-template-columns: repeat(2, 280px);
-        padding: 0 18px 0 18px;
+
     }
 }
 
 @media screen and (max-width: 320px) {
     .elements {
-        gap: 20px;
+
         grid-template-columns:repeat(1, 100%);
-        padding: 0 18px 0 18px;
+
     }
 }
   /*  position: relative;

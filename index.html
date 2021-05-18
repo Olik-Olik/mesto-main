@@ -18,34 +18,42 @@
     <section class="profile">
         <img alt="Фотка Кусто" class="profile__avatar" src="images/Image.svg">
         <div class="profile__info">
-            <div>
+            <!--<div>-->
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
                 <button type="button" class="profile__edit-button"></button>
                 <!--  <button type="submit" class="ui-btn
                    ui-btn-inline ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check></button>-->
-            </div>
+            <!--</div>-->
             <p class="profile__subtitle">Исследователь океана</p>
         </div>
+        <div class="profile__button-container">
         <button type="button" class="profile__add-button"></button>
+        </div>
     </section>
 
     <section class="elements">
         <div>
-            <img alt="Домбай" class="elements__image" src="images/Dombay.jpg">
+            <img alt="Эльбрус" class="elements__image" src="images/Cat.jpg">
+            <h3 class="elements__word">Котенок</h3>
             <img alt="Белый прямоугольник" class="elements__rectangle" src=" images/Rectangle.svg">
-            <h3 class="elements__word">Домбай</h3>
             <button type="button" class="elements__heart" aria-label="Лайк"></button>
         </div>
         <div>
-            <img alt="Эльбрус" class="elements__image" src="images/Karachaevsk.jpg">
+            <img alt="Домбай" class="elements__image" src="images/Dombay.jpg">
+            <h3 class="elements__word">Домбай</h3>
+            <img alt="Белый прямоугольник" class="elements__rectangle" src=" images/Rectangle.svg">
+            <button type="button" class="elements__heart" aria-label="Лайк"></button>
+        </div>
+        <div>
+            <img alt="Эльбрус" class="elements__image" src="images/Cat.jpg">
             <h3 class="elements__word">Эльбрус</h3>
             <img alt="Белый прямоугольник" class="elements__rectangle" src=" images/Rectangle.svg">
             <button type="button" class="elements__heart" aria-label="Лайк"></button>
         </div>
 
         <div>
-            <img alt="Карачаевск" class="elements__image" src="images/Elbrus.jpg">
-            <h3 class="elements__word">Карачаево-Черкесские горы</h3>
+            <img alt="Карачаевск" class="elements__image" src="images/Sail.jpg">
+            <h3 class="elements__word">Карачаево-Черкесские</h3>
             <img alt="Белый прямоугольник" class="elements__rectangle" src=" images/Rectangle.svg">
             <!--<form><input img alt="Белый прямоугольник" class="elements__rectangle" src=" images/Rectangle.svg"></form>
                 <p class="elements__word">Карачаево-Ч...</p>-->
@@ -73,15 +81,13 @@
             <button type="button" class="elements__heart" aria-label="Лайк"></button>
         </div>
     </section>
-</main>
 <footer>
     <p class="footer__place">© 2020 Mesto Russia</p>
 </footer>
 
-
 <section class="popup">
     <button class="profile__edit-button" type="button"></button>
-    <div class="popup">
+ <!--   <div class="popup">-->
         <div class="popup__container">
             <form class="popup__form" name="reprofile" method="GET">
                 <!--получения требуемой информации и передачи данных в адресной строке-->
@@ -98,10 +104,8 @@
                 <button class="popup__close" type="button"></button>
             </form>
         </div>
-    </div>
-    <div class="form__submit">
-        <button class="form__submit-btn form__submit-btn_action_reset">Очистить плейлист</button>
-    </div>
+  <!--  </div>-->
 </section>
-<script src="script.js"></script>
+</main>
+<script src="blocks/script.js"></script>
 </body>

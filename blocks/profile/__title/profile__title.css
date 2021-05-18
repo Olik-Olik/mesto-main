@@ -7,6 +7,7 @@
     line-height: 33px;
     display: inline-block; /*надо для кнопки редактирования на этой же строчке*/
     font-weight: 500;
+    max-width: 294px;
     padding-right: 10px;/*кнопка от титла*/
     padding-top: 22px;
 }

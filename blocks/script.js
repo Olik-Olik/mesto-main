@@ -1,37 +1,36 @@
 let container = document.querySelector('.container');
 
-let editButton = container.querySelector('.profile__edit-button');
-editButton.addEventListener('click', openPopup);//ввод текста
+let heartButton = document.querySelector('.elements__heart');
+heartButton.addEventListener( 'click', () =>
+heartButton.classList.toggle('heart-active'));//переключит на черное хотелось бы
+
+let editButton = container.querySelector('.profile').querySelector('.profile__info').querySelector('.profile__edit-button');
+
 
 let popupClose = document.querySelector('.popup__close');
-popupClose.addEventListener('click', closePopup);
 
-let popupSave = container.querySelector('.popup__save');
-let popupName = container.querySelector('.popup__profile__title');
-let popupJob = container.querySelector('.popup__profile__subtitle');
+let popupSave = document.querySelector('.popup__input-save');
+let popupName = document.querySelector('.popup__field_name');
+let popupJob = document.querySelector('.popup__field_job');
 let fullname = document.querySelector('.profile__full-name');
 let jobs = document.querySelector('.profile__jobs');
-let popup = document.querySelector('.popup');
+let popup = container.querySelector('.popup');
 let formSubmit = document.querySelector('.popup__form');
-let profile__addbutton = document.querySelector('.profile__add-button');
 
-let heart = document.querySelector('elements__heart');
+let addButton = container.querySelector('.profile__add-button');
 
-heart.addEventListener( 'click', () =>
-heart.classList.toggle('heart-active') )//Переключим классы
-
-//Переключим классы
-//elem.classList.toggle("you");
-//elem.classList.toggle("he");
-//console.log(elem.classList);
-
-function openPopup() { //открытие popup
-    popup.classList.add('popup_opened');
+function openPopup() {
+    //открытие popup
+    popup.className = 'popup_visible';
+    /*classList.add('popup_opened');*/
 }
 
 function closePopup() { //закрытие popup
-    popup.classList.remove('popup_opened');
+    popup.classList.remove('.popup_visible');
 }
+
+editButton.addEventListener('click', openPopup);
+popupClose.addEventListener('click', closePopup);
 
 
 
