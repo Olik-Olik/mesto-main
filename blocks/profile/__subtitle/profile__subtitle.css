@@ -1,6 +1,6 @@
 .profile__subtitle {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     margin: 0;

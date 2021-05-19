@@ -10,14 +10,17 @@ let editButton = container.querySelector('.profile').querySelector('.profile__in
 let popupClose = document.querySelector('.popup__close');
 
 let popupSave = document.querySelector('.popup__input-save');
-let popupName = document.querySelector('.popup__field_name');
-let popupJob = document.querySelector('.popup__field_job');
-let fullname = document.querySelector('.profile__full-name');
-let jobs = document.querySelector('.profile__jobs');
-let popup = container.querySelector('.popup');
-let formSubmit = document.querySelector('.popup__form');
+
+let popupName = container.querySelector('.popup__field_name');
+let popupJob = container.querySelector('.popup__field_job');
+
+/*let fullname = document.querySelector('.profile__full-name');*/
+/*let jobs = document.querySelector('.profile__jobs');
+let popup = container.querySelector('.popup');*/
+let formSubmit = container.querySelector('.popup__form');
 
 let addButton = container.querySelector('.profile__add-button');
+
 
 function openPopup() {
     //открытие popup
