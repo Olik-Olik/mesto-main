@@ -5,21 +5,19 @@ heartButton.addEventListener( 'click', () =>
 heartButton.classList.toggle('heart-active'));//переключит на черное хотелось бы
 
 let editButton = container.querySelector('.profile').querySelector('.profile__info').querySelector('.profile__edit-button');
-
-
-let popupClose = document.querySelector('.popup__close');
-
-let popupSave = document.querySelector('.popup__input-save');
+let popupClose = container.querySelector('.popup__close');
+let popupSave = container.querySelector('.popup__input-save');
 
 let popupName = container.querySelector('.popup__field_name');
 let popupJob = container.querySelector('.popup__field_job');
 
-/*let fullname = document.querySelector('.profile__full-name');*/
-/*let jobs = document.querySelector('.profile__jobs');
-let popup = container.querySelector('.popup');*/
+let fullname = document.querySelector('.profile__full-name');
+let jobs = document.querySelector('.profile__jobs');
+let popup = container.querySelector('.popup');
 let formSubmit = container.querySelector('.popup__form');
 
 let addButton = container.querySelector('.profile__add-button');
+
 
 
 function openPopup() {
