@@ -3,16 +3,13 @@ const heartButton = document.querySelector('.elements__heart');
 heartButton.addEventListener( 'click', () =>
 heartButton.classList.toggle('heart-active'));//переключит на черное хотелось бы
 /*let popupClose = container.querySelector('.popup__close');*/
-let popupSave = container.querySelector('.popup__save');
+/*let popupSave = container.querySelector('.popup__save');*/
 let popupName = container.querySelector('.popup__field_name');
 let popupJob = container.querySelector('.popup__field_job');
 let fullname = document.querySelector('.profile__full-name');
 let jobs = document.querySelector('.profile__jobs');
-
 let formSubmit = container.querySelector('.popup__form');
 let addButton = container.querySelector('.profile__add-button');
-
-
 /*
 let editButton = document.querySelector('.profile__edit-button');
 let popup = container.querySelector('.popup');
@@ -23,7 +20,6 @@ let popupClose = container.querySelector('.popup__close');
 popupClose.addEventListener('click',function (){
 popup.classList.remove ('popup_visible');})
 */
-
 let editButton = document.querySelector('.profile__edit-button');
 let popupClose = container.querySelector('.popup__close');
 let popup = container.querySelector('.popup');
@@ -33,6 +29,7 @@ popupClose.addEventListener('click',toggleClass);
 function toggleClass(){
    popup.classList.toggle('popup_visible');//переключаем класс
 }
+let popupSave = container.querySelector('.popup__save');
 
 
 
