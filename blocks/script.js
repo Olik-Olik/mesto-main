@@ -5,13 +5,14 @@ heartButton.addEventListener( 'click', () =>
 heartButton.classList.toggle('elements__heart-active'));//переключит на черное хотелось бы
 
 /*let popupClose = container.querySelector('.popup__close');*/
-let popupSave = container.querySelector('.popup__save');
+/*let popupSave = container.querySelector('.popup__save');
 let popupName = container.querySelector('.popup__field_name');
 let popupJob = container.querySelector('.popup__field_job');
 let fullname = container.querySelector('.profile__full-name');
 let jobs = container.querySelector('.profile__jobs');
 let formSubmit = container.querySelector('.popup__form');
-let addButton = container.querySelector('.profile__add-button');
+let addButton = container.querySelector('.profile__add-button');*/
+
 /*
 let editButton = document.querySelector('.profile__edit-button');
 let popup = container.querySelector('.popup');
@@ -30,44 +31,27 @@ popupClose.addEventListener('click',toggleClass);
 function toggleClass(){
    popup.classList.toggle('popup_visible'); }//переключаем класс
 
-/*
+// Находим форму в DOM
+let formElement = container.querySelector('.popup__container')
+// Находим поля формы в DOM
+let nameInput = container.querySelector('.popup__field_name');
+let jobInput = container.querySelector('.popup__field_job');
+// Обработчик «отправки» формы, хотя пока
+// она никуда отправляться не будет
+function formSubmitHandler (evt) {
+    evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
+    // Получите значение полей jobInput и nameInput из свойства value
+jobInput.getAttribute('value:');
+nameInput.getAttribute('value');
 
-let popupSave = container.querySelector('.profile__save');
-popupSave.insertAdjacentHTML('beforeend',
-    `<div class="popup__page">
-    <h2 class="popup__field_name">Жак-Ив Кусто</h2>
-    <p class="popup__field_job">Исследователь океана</p>
-     </div>`);
-  renderAdded();
-
-popupSave.addEventListener('click',popup__page);
+    // Выберите элементы, куда должны быть вставлены значения полей
+let ProfileTitle = container.querySelector('.profile__title');
+let ProfileSubtitle = container.querySelector('.profile__subtitle');
+    // Вставьте новые значения с помощью textContent
+ ProfileTitle.textContent = nameInput.value;
+  ProfileSubtitle.textContent = jobInput.value;
 }
-*/
 
-/*
-
-let songsContainer = container.querySelector('.songs-container');
-
-let addButton = container.querySelector('.form__submit-btn_action_add');
-let resetButton = container.querySelector('.form__submit-btn_action_reset');
-
-function renderAdded() { //есть ли треки в плейлисте,
-   // и меняем внешний вид страницы. Там и будем писать логику,
-   // когда нужно показывать надпись «Нет добавленных песен».
-  let songs = songsContainer.querySelectorAll('.song');
-  let noSongsElement = container.querySelector('.no-songs');/!*
-  определите переменную noSongsElement.В неё должен попадать элемент с класс-songs *!/
-
-  if (songs.length === 0) {
-resetButton.setAttribute('disabled', true);
-resetButton.classList.add('form__submit-btn_disabled');
-noSongsElement.classList.remove('no-songs_hidden');// необходимо убрать скрытие, если песен нет
-
-  }
-else{
-resetButton.removeAttribute('disabled', true);
-resetButton.classList.remove('form__submit-btn_disabled');
-noSongsElement.classList.add('no-songs_hidden');
-}
-}
-*/
+// Прикрепляем обработчик к форме:
+// он будет следить за событием “submit” - «отправка»
+formElement.addEventListener('submit', formSubmitHandler);

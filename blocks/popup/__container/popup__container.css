@@ -1,6 +1,12 @@
 .popup__container {
-    position: relative;
-    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    width: 55%;
+  /*  min-width: 282px;*/
     max-width: 430px;
     height: 330px; /*по хорошему убрать должна* контентом определяется*/
     /*left: 425px;
@@ -8,7 +14,14 @@
     background: #FFFFFF;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    padding: 34px 36px 37px 36px;//*ровняем тексты в контейнере имя работу*/
+    padding: 34px 36px 37px 36px;
 
 }
 
+
+
+@media screen and (max-width: 550px) {
+  .popup__container {
+    width: calc(100% - 120px);
+  }
+}
