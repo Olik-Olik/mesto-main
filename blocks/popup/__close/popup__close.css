@@ -5,15 +5,14 @@
     padding: 0;
     border:none;
     background-color: transparent;
-   /* margin: 0;*/
     z-index: 50;
     background-repeat: no-repeat;
     background-image: url('../../../images/Close_Icon.svg');
     top: -40px;
     right: -40px;
-  /*  object-fit: contain;*/
-   color: rgba(255, 255, 255, 1);
-/*transform: rotate(-45deg);*/
+    color: rgba(255, 255, 255, 1);
+   /* cursor:pointer;*/
+
 
 }
 /*
