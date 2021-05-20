@@ -12,25 +12,27 @@ let jobs = document.querySelector('.profile__jobs');
 let formSubmit = container.querySelector('.popup__form');
 let addButton = container.querySelector('.profile__add-button');
 
+
 /*
-const editButton = container.querySelector('.profile').querySelector('.profile__info').querySelector('.profile__edit-button');
-*/
 let editButton = document.querySelector('.profile__edit-button');
 let popup = container.querySelector('.popup');
 editButton.addEventListener('click',function (){
 popup.classList.add('popup_visible');})
-    /*classList.add('popup_opened');*/
-/*function closePopup() {
-     popup.classList.remove('popup_opened');
-/*function closePopup() { //закрытие popup
-    popup.classList.remove ='popup_visible';
-}*/
+
 let popupClose = container.querySelector('.popup__close');
 popupClose.addEventListener('click',function (){
 popup.classList.remove ('popup_visible');})
+*/
 
-/*editButton.addEventListener('click', openPopup);*/
-/*popupClose.addEventListener('click', closePopup);}*/
+let editButton = document.querySelector('.profile__edit-button');
+let popupClose = container.querySelector('.popup__close');
+let popup = container.querySelector('.popup');
+
+editButton.addEventListener('click',toggleClass);
+popupClose.addEventListener('click',toggleClass);
+function toggleClass(){
+   popup.classList.toggle('popup_visible');//переключаем класс
+}
 
 
 
