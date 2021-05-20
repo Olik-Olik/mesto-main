@@ -1,17 +1,23 @@
 .elements__heart{
-    background-image: url(../../../images/Vector_heart.svg);
+    background-image: url('../../../images/Vector_heart.svg');
     position: absolute;
     width: 24px;
-    height: 24px;
-  /*  border: 1px solid red;*/
+    height: 19px;
+    cursor: pointer;
     padding: 0;
     margin: 21px -30px  17px;
-    /*color:  black;*/
+    border: none;
     background-repeat: no-repeat;
-     background-color: transparent;}
+     background-color: transparent;
+}
 
 .elements__heart:hover {
     color: black;
     opacity: 0.3;
-    cursor: pointer;}
+    cursor: pointer;
+}
+
+
+
+
 

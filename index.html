@@ -19,12 +19,8 @@
         <div class="profile__person_info">
             <img alt="Фотка Кусто" class="profile__avatar" src="images/Image.svg">
             <div class="profile__info">
-                <!--<div>-->
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
                 <button type="button" class="profile__edit-button"></button>
-                <!--  <button type="submit" class="ui-btn
-                   ui-btn-inline ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check></button>-->
-                <!--</div>-->
                 <p class="profile__subtitle">Исследователь океана</p>
             </div>
         </div>
@@ -82,20 +78,18 @@
     <section class="popup">
         <button class="profile__edit-button" type="button" aria-label='открывает редактирование
       имя и субтитл-работу'></button>
-        <!--  <div class="popup">-->
         <div class="popup__container">
             <form class="popup__form" name="reprofile" method="GET"
                   aria-label='получения инфо и передачи данных в адресной строке'>
                 <h2 class="popup__page">Редактировать профиль</h2>
                 <fieldset class="popup__input-container"><!--Такая группировка облегчает работу с формами,
-                 содержащими большое число данных. Например, один блок может
-                быть предназначен для ввода текстовой информации, а другой — для флажков-->
-                    <input type="text" name="profile" placeholder="Жак-Ив Кусто"
+                 содержащими большое число данных.-->
+                    <input type="text" name="profile" placeholder="Жак-Ив Кусто" value = 'Жак-Ив Кусто'
                            class="popup__field popup__field_name">
-                    <input type="text" name="job" placeholder="Исследователь океана"
+                    <input type="text" name="job" placeholder="Исследователь океана" value = 'Исследователь океана'
                            class="popup__field popup__field_job">
                 </fieldset>
-                <button class="popup__save" type="submit">Сохранить</button>
+                <button class="popup__save" type="submit" aria-label='Сохранить'></button>
                 <button class="popup__close" type="button" aria-label='Закрыть этот бред'></button>
             </form>
         </div>

@@ -1,4 +1,14 @@
+/*
 .elements__heart-active
 {
     color: black;
     cursor: pointer;}
+*/
+
+.elements__heart-active{
+  background-image: url('../../../images/Union.svg');
+}
+
+/*.place-card__like-icon:hover {
+  transform: scale(1.03);
+}*/
