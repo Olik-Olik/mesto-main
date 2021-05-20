@@ -80,8 +80,9 @@
 </footer>
 
 <section class="popup">
-    <button class="profile__edit-button" type="button"></button>
- <!--   <div class="popup">-->
+    <button class="profile__edit-button" type="button"aria-label ='меняем  и
+    записываем значение имя и субтитл'></button>
+<!--  <div class="popup">-->
         <div class="popup__container">
             <form class="popup__form" name="reprofile" method="GET">
                 <!--получения требуемой информации и передачи данных в адресной строке-->
@@ -89,15 +90,16 @@
                 <fieldset class="popup__input-container"><!--Такая группировка облегчает работу с формами,
                  содержащими большое число данных. Например, один блок может
                 быть предназначен для ввода текстовой информации, а другой — для флажков-->
-                    <input type="text" name="profile" placeholder="Жак-Ив Кусто" value=" "
+                    <input type="text" name="profile" placeholder="Жак-Ив Кусто"
                            class="popup__field popup__field_name">
-                    <input type="text" name="job" placeholder="Исследователь океана" value=" "
+                    <input type="text" name="job" placeholder="Исследователь океана"
                            class="popup__field popup__field_job">
                 </fieldset>
                 <button class="popup__save" type="submit">Сохранить</button>
-                <button class="popup__close" type="button"></button>
+                <button class="popup__close" type="button" aria-label ='Закрыть этот бред'></button>
             </form>
         </div>
+
 </section>
 </main>
 <script src="blocks/script.js"></script>

@@ -1,16 +1,24 @@
-popup_visible {
-    position: fixed; /*для подложки прячм попап*/
-    top: 135px; /*прижат к топу -херня изменить*/
-    /* bottom:0; */
+/*popup_visible {
+    position: fixed; !*для подложки прячм попап*!
+    top: 135px; !*прижат к топу -херня изменить*!
     left: 0;
-    /*  right:0; */
     width: 100%;
     height: 100%;
-    display: flex; /* надо так изначально но пока кнопка не работает display: none;*/
+    display: flex; !* надо так изначально но пока кнопка не работает display: none;*!
     align-item: flex-start;
     justify-content: center;
     background-color: rgba(0, 0, 0, .15);
     z-index: 20;
-    /*  visibility: hidden;  подложку разремим*/
+    !*  visibility: hidden;  подложку разремим*!
+    transition: 0.5s;
+}*/
+.popup_visible {
+    position: fixed;/*за счет этой позиции висит жестко*/
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
     transition: 0.5s;
 }

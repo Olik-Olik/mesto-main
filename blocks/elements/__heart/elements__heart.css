@@ -6,8 +6,9 @@
   /*  border: 1px solid red;*/
     padding: 0;
     margin: 21px -30px  17px;
-    color:  black;
-    background-repeat: no-repeat;}
+    /*color:  black;*/
+    background-repeat: no-repeat;
+     background-color: transparent;}
 
 .elements__heart:hover {
     color: black;

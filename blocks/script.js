@@ -1,12 +1,11 @@
 let container = document.querySelector('.container');
-
+console.log(container.classList);
 let heartButton = document.querySelector('.elements__heart');
 heartButton.addEventListener( 'click', () =>
 heartButton.classList.toggle('heart-active'));//переключит на черное хотелось бы
 
 let editButton = container.querySelector('.profile').querySelector('.profile__info').querySelector('.profile__edit-button');
 let popupClose = container.querySelector('.popup__close');
-/*let popupClose = container.querySelectorAll('.popup__close')*/
 
 let popupSave = container.querySelector('.popup__save');
 
@@ -22,17 +21,18 @@ let addButton = container.querySelector('.profile__add-button');
 
 function openPopup() {
     //открытие popup
-    popup.className = 'popup_visible';
+    popup.classList.add('popup_visible');
     /*classList.add('popup_opened');*/
 }
 /*function closePopup() {
-     popup.classList = 'popup';*/
+     popup.classList.remove('popup_opened');
 /*function closePopup() { //закрытие popup
     popup.classList.remove ='popup_visible';
 }*/
 
+
 editButton.addEventListener('click', openPopup);
-popupClose.addEventListener('click', closePopup);
+/*popupClose.addEventListener('click', closePopup);}*/
 
 
 

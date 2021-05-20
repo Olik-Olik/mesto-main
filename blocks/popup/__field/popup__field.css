@@ -2,10 +2,10 @@
     width: 100%;
     padding-bottom: 13px;/* ровняем внутри ввода титла и субтитла*/
     padding-top: 30px;
-    border-bottom: 1px solid black;
-    border-color: #000000;
+    /*border-bottom: 1px solid black;*/
+   /* border-color: #000000;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 17px;*/
   /*  opacity: 0.2;*/
 }
