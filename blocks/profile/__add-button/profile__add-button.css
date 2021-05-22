@@ -14,8 +14,6 @@
     background-position: center;
     object-position: right;
     object-fit: contain;/*заполняет обьем*/
-    /*float: initial;
-    display: inline-block;*/
 }
 
 .profile__add-button:hover {
@@ -28,8 +26,5 @@
         padding-top: 0;
         padding-bottom: 36px;
         display: inline-block;
-        max-height: 18%;
-        max-width: 88%;
-        width: 282px;
     }
 }
