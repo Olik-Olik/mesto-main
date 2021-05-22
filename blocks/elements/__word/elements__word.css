@@ -1,8 +1,7 @@
 .elements__word {
     background-color: #FFFFFF;
-    /*height: 23px;*/
+/*    height: 23px;*/
   /*  width: 246px;*/
-    width: auto;
     font-weight: 900;
     color:black;
     background-repeat: no-repeat;
@@ -10,13 +9,12 @@
     z-index: 10;
     justify-content: center;
     font-size: 24px;
-    position: absolute;
-  /*  border: 1px solid red;*/
     padding: 0;
     margin: 26px 21px  31px 15px;
-     text-overflow: ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+
     }
 
 

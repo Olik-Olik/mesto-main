@@ -1,14 +1,14 @@
 .elements__heart{
     background-image: url('../../../images/Vector_heart.svg');
-    position: absolute;
     width: 24px;
     height: 19px;
     cursor: pointer;
-    padding: 0;
-    margin: 21px -30px  17px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     border: none;
     background-repeat: no-repeat;
-     background-color: transparent;
+ background-color: transparent;
+    z-index: 51;
 }
 
 .elements__heart:hover {

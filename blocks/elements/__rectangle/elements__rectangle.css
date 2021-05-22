@@ -7,8 +7,6 @@
     object-fit: contain;
     object-position: top;
     justify-items: center;
-    max-width: 282px;
-    position: relative;/*и абсолют для текста*/
-
-
+    max-width: 280px;
+    position: absolute;
 }

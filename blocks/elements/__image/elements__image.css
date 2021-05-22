@@ -4,10 +4,7 @@
     object-fit: contain;
     justify-items: center;
     position: relative;
-    width: 100%;
+/*    width: 100%;*/
     background-size:cover;
     max-width: 280px;
-
-    /*object-position: top;*/
-
 }
