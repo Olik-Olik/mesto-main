@@ -3,9 +3,10 @@
         flex-direction: row;
         justify-content: space-between;
         display: flex;
-        padding-top:36px;
+        padding-top:38px;
         margin:0 auto;
         max-width: 69%;
+    padding-bottom: 36px;
 }
 
 @media screen and (min-width: 321px)and (max-width: 767px) {

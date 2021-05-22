@@ -2,9 +2,9 @@
     color: white;
     width: 84%;
     max-width: 358px;
-    height: 50px;/*//////высота плохо*/
+    height: 50px; /*//////высота плохо*/
     border: none;
-    position: absolute;
+    /* position: absolute;*/
     background-color: #000000;
     border-radius: 2px;
     background-image: url('../../../images/Submit_Button.svg');

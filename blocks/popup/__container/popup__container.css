@@ -1,8 +1,8 @@
 .popup__container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+  /*  justify-content: center;
+    align-content: center;*/
     align-items: center;
     position: absolute;
     width: 55%;
@@ -15,6 +15,8 @@
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 34px 36px 37px 36px;
+    align-content: stretch;
+    justify-content: space-evenly;
 
 }
 
