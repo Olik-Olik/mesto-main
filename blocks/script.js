@@ -43,6 +43,7 @@ function formSubmitHandler(evt) {
     // Вставьте новые значения с помощью textContent
     ProfileTitle.textContent = nameInput.value;
     ProfileSubtitle.textContent = jobInput.value;
+    toggleClass();
 }
 
 // Прикрепляем обработчик к форме:
