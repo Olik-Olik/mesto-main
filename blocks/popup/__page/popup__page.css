@@ -11,7 +11,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
-}
 
 .popup__page {
     max-width: 238px;
@@ -23,4 +22,6 @@
     line-height: 22px;
     /* identical to box height */
     color: #000000;
+}
+
 }

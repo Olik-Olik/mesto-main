@@ -4,7 +4,6 @@
     max-width: 358px;
     height: 50px; /*//////высота плохо*/
     border: none;
-    /* position: absolute;*/
     background-color: #000000;
     border-radius: 2px;
     background-image: url('../../../images/Submit_Button.svg');
@@ -13,7 +12,6 @@
     cursor: pointer;
     line-height: 22px;
     font-size: 18px;
-    /* margin-left: 36px;*/
     padding-top: 14px;
     padding-bottom: 18px;
     align-items: center;
@@ -23,13 +21,4 @@
     opacity: 0.3;
     cursor: pointer;
     text-decoration: none;
-}
-
-/*прозрачность hover, но чтобы она не влияла на border и надпись
-*/
-
-@media screen and (max-width: 540px) {
-    .popup__save {
-        /*        margin-left: 22px;*/
-    }
 }

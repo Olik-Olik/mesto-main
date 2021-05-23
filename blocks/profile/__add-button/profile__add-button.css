@@ -1,7 +1,6 @@
 .profile__add-button {
     flex-direction: column;
     padding: 0;
-    /*border: 0;*/
     background-image: url('../../../images/Add_Button.svg');
     align-items: center;
     justify-content: center;
