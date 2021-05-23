@@ -1,6 +1,6 @@
+/*
 .profile__avatar_image {
     background-size: cover;
-/*    background-position: center;*/
     border-radius: 50%;
     width: 120px;
     min-width: 120px;
@@ -8,10 +8,4 @@
     background-position: center center;
     background-image: url('/images/Image.svg');
 }
-
-@media screen and (max-width: 320px) {
-    .profile__avatar_image {
-
-    }
-
-}
+*/

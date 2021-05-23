@@ -1,4 +1,4 @@
-.elements__heart{
+.elements__heart {
     background-image: url('../../../images/Vector_heart.svg');
     width: 24px;
     height: 19px;
@@ -7,7 +7,7 @@
     padding-bottom: 30px;
     border: none;
     background-repeat: no-repeat;
- background-color: transparent;
+    background-color: transparent;
     z-index: 51;
 }
 

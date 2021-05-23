@@ -3,7 +3,7 @@
     width: 56px;
     height: 56px;
     padding: 0;
-    border:none;
+    border: none;
     background-color: transparent;
     z-index: 50;
     background-repeat: no-repeat;
@@ -11,8 +11,9 @@
     top: -40px;
     right: -40px;
     color: rgba(255, 255, 255, 1);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 /*
 @media screen and(max-width: 320px){
   .popup__close {

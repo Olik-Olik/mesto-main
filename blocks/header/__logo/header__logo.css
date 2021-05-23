@@ -1,7 +1,7 @@
 .header__logo {
     position: inherit;
     max-width: 142px;
-   /* max-height: 33px;*/
+    /* max-height: 33px;*/
     border-radius: 0;
     align-self: flex-start;
     align-content: flex-start;
@@ -14,10 +14,10 @@
 @media screen and (max-width: 320px) {
     .header__logo {
         max-width: 104px;
-       /* max-height: 24px;*/
+        /* max-height: 24px;*/
         padding-left: 27px;
         padding-top: 0;
         /*object-position: top;*/
-         margin: 0;
+        margin: 0;
     }
 }

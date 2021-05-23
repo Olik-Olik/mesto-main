@@ -1,4 +1,4 @@
-.profile__avatar{
+.profile__avatar {
     max-width: 120px;
     max-height: 120px;
     border-radius: 50%;
@@ -8,9 +8,10 @@
 
 }
 
-@media screen and (max-width: 320px){
-    .profile__avatar{
-    margin:0 auto;
-    align-items: center;
-    justify-content: center;
-}}
+@media screen and (max-width: 320px) {
+    .profile__avatar {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}

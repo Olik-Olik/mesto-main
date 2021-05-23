@@ -1,21 +1,20 @@
 .footer {
-    margin: 0;
-    padding: 0;
-     color: #545454;
-font-weight:400;
-font-size:14px;
-line-height:17px;
-font-style: normal;
-
-     justify-content: flex-start;
-        padding-left: 200px;
-        padding-bottom: 60px;
-        padding-top: 67px;
+    display: flex;
+    margin: 0 auto;
+    color: #545454;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    justify-content: flex-start;
+    text-align: left;
+    padding-bottom: 60px;
+    padding-top: 67px;
+    max-width: 880px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .footer {
-        padding-left: 200px;
         padding-bottom: 60px;
         padding-top: 67px;
     }
@@ -23,9 +22,9 @@ font-style: normal;
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .footer {
-        padding-right: 762px;
         padding-bottom: 60px;
         padding-top: 67px;
+        max-width: 60%;
     }
 }
 
@@ -33,9 +32,9 @@ font-style: normal;
     .footer {
         justify-content: flex-start;
         padding-left: 19px;
-        padding-right: 19px;
         padding-bottom: 36px;
         padding-top: 48px;
+        max-width: 282px;
     }
 }
 
